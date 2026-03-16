@@ -1,3 +1,5 @@
+import Counter from '@/components/ui/Counter'
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
@@ -13,6 +15,8 @@ export default function Home() {
               src/app/page.tsx
             </code>
           </p>
+
+          <Counter />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 w-full">
             <a
